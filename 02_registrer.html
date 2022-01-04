@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Makes the application more responsive.-->
+        <title>Cadastro de Processos</title>
+        <link rel="stylesheet" href="02_register_style.css"> <!--Defines the relationships between the current document and an external resource..-->
+    </head>
+
+    <body>
+        
+        <strong>ATENÇÃO:</strong> ajeitar a validação do input do campo NÚMERO DO PROCESSO.
+
+        <p class="title"> <strong>SisSec</strong> WEB </p>
+
+        <div class="screen">
+            <h2>Cadastro de Processos</h2>
+
+            <form action="04_data.html" method="GET"> <!--O POST, juntamente com o GET, são meios de submissão de dados de um formulário-->
+
+                <p class="paragraph">Número do Processo: </p>
+
+                <input class="numproc" type="number" name="numprocesso" required placeholder="00000000/0000" title="O número do processo deve conter 12 dígitos" >
+                <br><br>
+
+                <p class="paragraph">Data de cadastro:  </p>
+
+                <input class="datecad" type="date" value="dataprocesso" required>
+                <br><br>
+
+                <p class="paragraph">Observação: </p>
+
+                <textarea class="obs" name="observacao" required></textarea>
+                <br>
+
+                <input class="sub" type="submit" value="Incluir">
+                <br><br>
+
+            </form>
+
+        </div>
+    </body>
+</html>

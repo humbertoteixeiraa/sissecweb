@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Makes the application more responsive.-->
+        <title>Login</title>
+        <link rel="stylesheet" href="01_login_style.css"> <!--Defines the relationships between the current document and an external resource..-->
+    </head>
+
+    <body>
+
+        <strong>ATENÇÃO:</strong> continuar do módulo 05 <strong> (responsividade). </strong> 
+
+        <p class="title"> <strong>SisSec</strong> WEB </p>
+        
+        <div class="screen">
+            <h2>Login</h2>
+
+            <p class="p1">
+                Para acessar o sistema é preciso informar seu e-mail institucional
+            </p>
+            
+            <form action="02_registrer.html" method="get">
+                <input type="email" required placeholder="E-mail institucional" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9_.]+$)" title="Endereço de E-mail">
+                
+                <br><br>
+
+                <input type="password" required placeholder="Senha cadastrada" minlength="5" maxlength="5" name="password" title="A senha deve conter apenas 5 caracteres" >
+
+                <br><br>
+
+                <button type="submit"> Acessar </button>
+
+                <br><br>
+
+                <a href="03_recover.html">Esqueceu sua senha?</a>
+        <br/>
+
+            </form>
+        
+            <p class="p2">
+                Sistema de Secretaria WEB (1.0)
+            </p>
+        </div>
+    </body>
+</html>

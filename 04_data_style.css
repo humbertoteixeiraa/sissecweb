@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial; 
+}
+
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    box-sizing:unset;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+ .p1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    margin: 1%;
+    
+}
+
+.screen {
+    border: 3px solid #00853B;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    width: 375px;
+    height: 412px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
