@@ -1,2 +1,2 @@
 # SisSecWEB
- Sistema para controle de secretarias instituições de nível superior.
+ Sistema para controle de secretarias de instituições de nível superior.
