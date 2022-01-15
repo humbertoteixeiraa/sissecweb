@@ -3,6 +3,7 @@
 }
 body {
     font-family: Arial; 
+    
 }
 
 h2 {
@@ -12,7 +13,10 @@ h2 {
 .title {
     text-align: center;
     font-size: 50px;
-    box-sizing:unset;
+
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -58,6 +62,8 @@ button:hover {
 
     margin-left: auto;
     margin-right: auto;
+
+    box-shadow: 0px 0px 10px black;
 }
 
 a {
@@ -71,5 +77,5 @@ a {
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: 18%;
+    top: 16%;
 }
